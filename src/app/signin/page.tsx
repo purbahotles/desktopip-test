@@ -29,8 +29,8 @@ const SignIn: React.FC = () => {
         </div>
 
         <section className='relative z-50'>
-          <div className="flex items-center justify-center min-h-screen">
-            <div className="p-8 bg-white text-black rounded-lg shadow-lg w-full max-w-md">
+          <div className="flex items-center justify-center">
+            <div className="p-8 md:pb-40 md:pt-40 bg-white text-black rounded-lg shadow-lg w-full max-w-md">
               <h2 className="text-2xl font-bold text-blue-950 mb-6 text-center">Sign In</h2>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
